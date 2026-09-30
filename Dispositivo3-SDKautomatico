@@ -6,10 +6,10 @@ from azure.iot.device.aio import ProvisioningDeviceClient
 from azure.iot.device.aio import IoTHubDeviceClient
 from azure.iot.device import Message
 
-ID_SCOPE = "0ne010F6F29"
-DEVICE_ID = "m7dwyvrfl2"
-SYMMETRIC_KEY = "RVcbVd2ctXKlbJYwuAf+hMELW3jcvoCk7F993z4Ll9k="
-MODEL_ID = "dtmi:granjadecacao:LoteDeCultivo_15o;1"  # el que copiaste en 5.1
+ID_SCOPE = ""
+DEVICE_ID = ""
+SYMMETRIC_KEY = ""
+MODEL_ID = "dtmi:granjadecacao:LoteDeCultivo#####"  
 PROVISIONING_HOST = "global.azure-devices-provisioning.net"
 
 async def provision_device():
