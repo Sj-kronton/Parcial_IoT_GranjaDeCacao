@@ -4,10 +4,10 @@ import csv
 from azure.iot.device.aio import ProvisioningDeviceClient, IoTHubDeviceClient
 from azure.iot.device import Message
 
-ID_SCOPE = "0ne010F6F29"
-DEVICE_ID = "1mwamqt9mjk"
-SYMMETRIC_KEY = "N7GzDm5CdHXxHWcNRlQ9E71MGikT6nnqfQiqBS4gySA="
-MODEL_ID = "dtmi:granjadecacao:PerimetroYBodega_4mb;1"
+ID_SCOPE = ""
+DEVICE_ID = ""
+SYMMETRIC_KEY = ""
+MODEL_ID = "dtmi:granjadecacao:PerimetroYBodega#####"
 
 async def main():
     provisioning_client = ProvisioningDeviceClient.create_from_symmetric_key(
