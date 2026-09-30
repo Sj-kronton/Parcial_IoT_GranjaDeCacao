@@ -7,10 +7,10 @@ from datetime import datetime
 from azure.iot.device.aio import ProvisioningDeviceClient, IoTHubDeviceClient
 from azure.iot.device import Message
 
-ID_SCOPE = "0ne010F6F29"
-DEVICE_ID = "27ticbo9kjp"
-SYMMETRIC_KEY = "O+MJetf2knmwdWYLv/nY1iJs8geEan377VbYkpdEP7A="
-MODEL_ID = "dtmi:granjadecacao:CalidadDeAireRural_2x1;1"
+ID_SCOPE = ""
+DEVICE_ID = ""
+SYMMETRIC_KEY = ""
+MODEL_ID = "dtmi:granjadecacao:CalidadDeAireRural#####"
 
 LAT = 7.0
 LON = -73.05
