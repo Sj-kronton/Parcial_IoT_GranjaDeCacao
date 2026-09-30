@@ -11,13 +11,13 @@ const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 
 // --- Credenciales IoT Central (reemplaza con las tuyas) ---
-const char* deviceId = "7x1973kjgs";
-const char* idScope = "0ne010F6F29";
-const char* primaryKey = "PT5jzqUgbg62NGfjzcm13D42SzQB3o9qMyJnPSV2Dk0=";
-const char* modelId = "dtmi:granjadecacao:LoteDeCultivo_15o;1";
+const char* deviceId = "";
+const char* idScope = "";
+const char* primaryKey = "";
+const char* modelId = "dtmi:granjadecacao:LoteDeCultivo#####";
 
 // Tras aprovisionar manualmente una vez (ver nota abajo), el hub queda fijo:
-const char* iotHubHost = "iotc-d56f0dee-f8d2-4958-9948-b3d323c4f2d9.azure-devices.net";
+const char* iotHubHost = "############################.azure-devices.net";
 //granjadecacao
 WiFiClientSecure net;
 PubSubClient client(net);
