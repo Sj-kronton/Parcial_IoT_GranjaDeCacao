@@ -1,9 +1,9 @@
 
 
-ID_SCOPE = "0ne010F6F29"
-DEVICE_ID = "1g2pt5ibysw"
-SYMMETRIC_KEY = "KWTxwoTmR8xyWJo1eeUqzO0u6hHiKjXIGVMNMWxCu68="
-MODEL_ID = "dtmi:granjadecacao:ReservorioYRiego_7j8;1"
+ID_SCOPE = ""
+DEVICE_ID = ""
+SYMMETRIC_KEY = ""
+MODEL_ID = "dtmi:granjadecacao:ReservorioYRiego#####"
 
 import time
 import json
