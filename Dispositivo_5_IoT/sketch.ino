@@ -10,11 +10,11 @@ const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 
 // --- Credenciales del dispositivo 05 ---
-const char* deviceId = "290lbx1pawb";
-const char* idScope = "0ne010F6F29";
-const char* primaryKey = "Yz7MOHLHMV4v7iNimoJCmD8GSfMkiAww5ktRK3sOMTM=";
-const char* modelId = "dtmi:granjadecacao:AmbienteDeDoselYCampo_rn;1";
-const char* iotHubHost = "iotc-d56f0dee-f8d2-4958-9948-b3d323c4f2d9.azure-devices.net"; // del bootstrap
+const char* deviceId = "";
+const char* idScope = "";
+const char* primaryKey = "";
+const char* modelId = "dtmi:granjadecacao:AmbienteDeDoselYCampo#####";
+const char* iotHubHost = "#############################.azure-devices.net"; // del bootstrap
 
 WiFiClientSecure net;
 PubSubClient client(net);
