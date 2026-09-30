@@ -1,0 +1,3 @@
+# Wokwi Library List
+# See https://docs.wokwi.com/guides/libraries
+# The project uses local library sources from the workspace instead of remote downloads.
