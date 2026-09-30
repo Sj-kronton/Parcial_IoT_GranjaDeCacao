@@ -4,10 +4,10 @@ const { SymmetricKeySecurityClient } = require('azure-iot-security-symmetric-key
 const { Client, Message } = require('azure-iot-device');
 const { Amqp } = require('azure-iot-device-amqp');
 
-const idScope = '0ne010F6F29';
-const deviceId = 'rzzzkx0v94';
-const symmetricKey = 'Vbm1PJX0DkinlFKeRV8AYcCf5R0pQ0YLXOrnnfFv6vE=';
-const modelId = 'dtmi:granjadecacao:SecadoYFermentacion_2pj;1';
+const idScope = '';
+const deviceId = '';
+const symmetricKey = '';
+const modelId = 'dtmi:granjadecacao:SecadoYFermentacion#####';
 const provisioningHost = 'global.azure-devices-provisioning.net';
 
 async function main() {
