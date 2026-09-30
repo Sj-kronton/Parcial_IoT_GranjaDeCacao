@@ -1,0 +1,58 @@
+import asyncio
+import random
+import json
+from datetime import datetime
+from azure.iot.device.aio import ProvisioningDeviceClient
+from azure.iot.device.aio import IoTHubDeviceClient
+from azure.iot.device import Message
+
+ID_SCOPE = "0ne010F6F29"
+DEVICE_ID = "m7dwyvrfl2"
+SYMMETRIC_KEY = "RVcbVd2ctXKlbJYwuAf+hMELW3jcvoCk7F993z4Ll9k="
+MODEL_ID = "dtmi:granjadecacao:LoteDeCultivo_15o;1"  # el que copiaste en 5.1
+PROVISIONING_HOST = "global.azure-devices-provisioning.net"
+
+async def provision_device():
+    provisioning_client = ProvisioningDeviceClient.create_from_symmetric_key(
+        provisioning_host=PROVISIONING_HOST,
+        registration_id=DEVICE_ID,
+        id_scope=ID_SCOPE,
+        symmetric_key=SYMMETRIC_KEY,
+    )
+    provisioning_client.provisioning_payload = {"modelId": MODEL_ID}
+    return await provisioning_client.register()
+
+async def main():
+    registration_result = await provision_device()
+    if registration_result.status != "assigned":
+        print("Fallo el aprovisionamiento:", registration_result.status)
+        return
+
+    device_client = IoTHubDeviceClient.create_from_symmetric_key(
+        symmetric_key=SYMMETRIC_KEY,
+        hostname=registration_result.registration_state.assigned_hub,
+        device_id=DEVICE_ID,
+        product_info=MODEL_ID,
+    )
+    await device_client.connect()
+    print(f"[{DEVICE_ID}] Conectado.")
+
+    try:
+        while True:
+            payload = {
+                "humedadDeSuelo": round(random.uniform(20, 70), 2),
+                "IluminanciaPAR": round(random.uniform(200, 2000), 2),
+            }
+            msg = Message(json.dumps(payload))
+            msg.content_encoding = "utf-8"
+            msg.content_type = "application/json"
+            await device_client.send_message(msg)
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] Enviado:", payload)
+            await asyncio.sleep(60)
+    except KeyboardInterrupt:
+        print("Deteniendo envío...")
+    finally:
+        await device_client.disconnect()
+
+if __name__ == "__main__":
+    asyncio.run(main())

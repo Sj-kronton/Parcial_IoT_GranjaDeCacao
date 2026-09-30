@@ -1,0 +1,68 @@
+import time
+import json
+import random
+import ssl
+import base64
+import hmac
+import hashlib
+import urllib.parse
+import paho.mqtt.client as mqtt
+from azure.iot.device import ProvisioningDeviceClient  # solo para DPS
+
+ID_SCOPE = "0ne010F6F29"
+DEVICE_ID = "1hhub7m5bjg"
+SYMMETRIC_KEY = "fDFl4tXkfqoyCOgTAbG/z0OQelqDiWossCECTFp9mRo="
+MODEL_ID = "dtmi:granjadecacao:AmbienteDeDoselYCampo_rn;1"
+#.azure-devices.net
+# --- Paso A: aprovisionar vía DPS para obtener el hub asignado ---
+provisioning_client = ProvisioningDeviceClient.create_from_symmetric_key(
+    provisioning_host="global.azure-devices-provisioning.net",
+    registration_id=DEVICE_ID,
+    id_scope=ID_SCOPE,
+    symmetric_key=SYMMETRIC_KEY,
+)
+provisioning_client.provisioning_payload = {"modelId": MODEL_ID}
+registration_result = provisioning_client.register()
+HUB_HOSTNAME = registration_result.registration_state.assigned_hub
+print("Hub asignado:", HUB_HOSTNAME)
+
+# --- Paso B: generar SAS token manualmente ---
+def generate_sas_token(uri, key, expiry=3600):
+    ttl = int(time.time() + expiry)
+    sign_key = f"{urllib.parse.quote_plus(uri)}\n{ttl}"
+    signature = base64.b64encode(
+        hmac.HMAC(base64.b64decode(key), sign_key.encode("utf-8"), hashlib.sha256).digest()
+    )
+    return (
+        f"SharedAccessSignature sr={urllib.parse.quote_plus(uri)}"
+        f"&sig={urllib.parse.quote_plus(signature)}&se={ttl}"
+    )
+
+resource_uri = f"{HUB_HOSTNAME}/devices/{DEVICE_ID}"
+sas_token = generate_sas_token(resource_uri, SYMMETRIC_KEY)
+
+# --- Paso C: conexión MQTT explícita ---
+client = mqtt.Client(client_id=DEVICE_ID, protocol=mqtt.MQTTv311)
+client.username_pw_set(
+    username=f"{HUB_HOSTNAME}/{DEVICE_ID}/?api-version=2021-04-12",
+    password=sas_token,
+)
+client.tls_set(tls_version=ssl.PROTOCOL_TLSv1_2)
+client.connect(HUB_HOSTNAME, port=8883)
+client.loop_start()
+
+topic = f"devices/{DEVICE_ID}/messages/events/"
+
+try:
+    while True:
+        payload = {
+            "Temperatura": round(random.uniform(18, 30), 2),
+            "HRBajoDosel": round(random.uniform(60, 95), 2),
+            "Lux": random.randint(200, 20000),
+        }
+        client.publish(topic, json.dumps(payload), qos=1)
+        print("Enviado:", payload)
+        time.sleep(60)
+except KeyboardInterrupt:
+    client.loop_stop()
+    client.disconnect()

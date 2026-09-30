@@ -1,0 +1,501 @@
+timestamp,puerta,movimiento,tempBodega
+2026-09-19T00:00:00,Cerrada,Sin movimiento,29.06
+2026-09-19T00:05:00,Cerrada,Sin movimiento,18.04
+2026-09-19T00:10:00,Cerrada,Sin movimiento,26.52
+2026-09-19T00:15:00,Cerrada,Sin movimiento,23.97
+2026-09-19T00:20:00,Cerrada,Sin movimiento,15.83
+2026-09-19T00:25:00,Cerrada,Sin movimiento,19.02
+2026-09-19T00:30:00,Cerrada,Sin movimiento,17.41
+2026-09-19T00:35:00,Cerrada,Sin movimiento,26.48
+2026-09-19T00:40:00,Cerrada,Sin movimiento,26.87
+2026-09-19T00:45:00,Cerrada,Sin movimiento,25.51
+2026-09-19T00:50:00,Cerrada,Sin movimiento,17.9
+2026-09-19T00:55:00,Cerrada,Sin movimiento,28.87
+2026-09-19T01:00:00,Cerrada,Sin movimiento,15.99
+2026-09-19T01:05:00,Cerrada,Sin movimiento,25.6
+2026-09-19T01:10:00,Cerrada,Sin movimiento,20.43
+2026-09-19T01:15:00,Cerrada,Sin movimiento,25.57
+2026-09-19T01:20:00,Cerrada,Sin movimiento,24.04
+2026-09-19T01:25:00,Cerrada,Sin movimiento,22.5
+2026-09-19T01:30:00,Abierta,Detectado,26.19
+2026-09-19T01:35:00,Abierta,Detectado,23.42
+2026-09-19T01:40:00,Abierta,Detectado,23.55
+2026-09-19T01:45:00,Abierta,Detectado,20.33
+2026-09-19T01:50:00,Abierta,Detectado,16.01
+2026-09-19T01:55:00,Abierta,Detectado,19.17
+2026-09-19T02:00:00,Abierta,Detectado,28.93
+2026-09-19T02:05:00,Abierta,Detectado,21.53
+2026-09-19T02:10:00,Abierta,Detectado,18.0
+2026-09-19T02:15:00,Cerrada,Sin movimiento,19.01
+2026-09-19T02:20:00,Abierta,Detectado,15.0
+2026-09-19T02:25:00,Abierta,Detectado,16.56
+2026-09-19T02:30:00,Cerrada,Sin movimiento,29.8
+2026-09-19T02:35:00,Cerrada,Sin movimiento,28.5
+2026-09-19T02:40:00,Abierta,Detectado,25.76
+2026-09-19T02:45:00,Abierta,Detectado,21.16
+2026-09-19T02:50:00,Abierta,Detectado,18.51
+2026-09-19T02:55:00,Abierta,Sin movimiento,28.16
+2026-09-19T03:00:00,Cerrada,Sin movimiento,18.46
+2026-09-19T03:05:00,Cerrada,Sin movimiento,23.2
+2026-09-19T03:10:00,Cerrada,Sin movimiento,17.18
+2026-09-19T03:15:00,Cerrada,Sin movimiento,24.89
+2026-09-19T03:20:00,Cerrada,Sin movimiento,23.88
+2026-09-19T03:25:00,Cerrada,Sin movimiento,25.07
+2026-09-19T03:30:00,Cerrada,Sin movimiento,16.29
+2026-09-19T03:35:00,Cerrada,Sin movimiento,27.54
+2026-09-19T03:40:00,Cerrada,Sin movimiento,19.41
+2026-09-19T03:45:00,Cerrada,Sin movimiento,18.72
+2026-09-19T03:50:00,Cerrada,Sin movimiento,25.99
+2026-09-19T03:55:00,Cerrada,Sin movimiento,27.84
+2026-09-19T04:00:00,Cerrada,Sin movimiento,20.54
+2026-09-19T04:05:00,Cerrada,Sin movimiento,16.02
+2026-09-19T04:10:00,Cerrada,Sin movimiento,16.4
+2026-09-19T04:15:00,Abierta,Detectado,29.05
+2026-09-19T04:20:00,Abierta,Sin movimiento,29.86
+2026-09-19T04:25:00,Abierta,Sin movimiento,18.33
+2026-09-19T04:30:00,Abierta,Detectado,24.61
+2026-09-19T04:35:00,Abierta,Detectado,15.95
+2026-09-19T04:40:00,Abierta,Detectado,19.16
+2026-09-19T04:45:00,Abierta,Sin movimiento,25.01
+2026-09-19T04:50:00,Abierta,Detectado,21.52
+2026-09-19T04:55:00,Abierta,Sin movimiento,17.92
+2026-09-19T05:00:00,Abierta,Detectado,29.63
+2026-09-19T05:05:00,Abierta,Sin movimiento,26.75
+2026-09-19T05:10:00,Abierta,Sin movimiento,19.5
+2026-09-19T05:15:00,Abierta,Detectado,27.35
+2026-09-19T05:20:00,Abierta,Sin movimiento,23.75
+2026-09-19T05:25:00,Abierta,Sin movimiento,16.68
+2026-09-19T05:30:00,Abierta,Detectado,26.36
+2026-09-19T05:35:00,Abierta,Sin movimiento,24.94
+2026-09-19T05:40:00,Abierta,Detectado,15.34
+2026-09-19T05:45:00,Abierta,Detectado,16.78
+2026-09-19T05:50:00,Abierta,Detectado,17.56
+2026-09-19T05:55:00,Abierta,Detectado,26.72
+2026-09-19T06:00:00,Cerrada,Sin movimiento,28.23
+2026-09-19T06:05:00,Cerrada,Sin movimiento,29.87
+2026-09-19T06:10:00,Cerrada,Sin movimiento,20.03
+2026-09-19T06:15:00,Cerrada,Sin movimiento,16.1
+2026-09-19T06:20:00,Abierta,Sin movimiento,29.21
+2026-09-19T06:25:00,Abierta,Detectado,15.83
+2026-09-19T06:30:00,Abierta,Detectado,24.76
+2026-09-19T06:35:00,Abierta,Sin movimiento,26.09
+2026-09-19T06:40:00,Abierta,Detectado,29.43
+2026-09-19T06:45:00,Abierta,Sin movimiento,15.93
+2026-09-19T06:50:00,Abierta,Sin movimiento,22.94
+2026-09-19T06:55:00,Abierta,Detectado,23.62
+2026-09-19T07:00:00,Abierta,Detectado,21.32
+2026-09-19T07:05:00,Abierta,Detectado,24.38
+2026-09-19T07:10:00,Abierta,Sin movimiento,21.58
+2026-09-19T07:15:00,Abierta,Sin movimiento,21.63
+2026-09-19T07:20:00,Abierta,Sin movimiento,23.97
+2026-09-19T07:25:00,Abierta,Sin movimiento,18.65
+2026-09-19T07:30:00,Abierta,Sin movimiento,23.18
+2026-09-19T07:35:00,Abierta,Detectado,16.62
+2026-09-19T07:40:00,Abierta,Detectado,15.24
+2026-09-19T07:45:00,Abierta,Sin movimiento,21.65
+2026-09-19T07:50:00,Abierta,Sin movimiento,21.46
+2026-09-19T07:55:00,Abierta,Sin movimiento,23.46
+2026-09-19T08:00:00,Abierta,Sin movimiento,29.69
+2026-09-19T08:05:00,Abierta,Sin movimiento,24.28
+2026-09-19T08:10:00,Abierta,Sin movimiento,22.35
+2026-09-19T08:15:00,Abierta,Detectado,26.65
+2026-09-19T08:20:00,Abierta,Detectado,28.57
+2026-09-19T08:25:00,Abierta,Detectado,20.64
+2026-09-19T08:30:00,Abierta,Sin movimiento,23.03
+2026-09-19T08:35:00,Abierta,Sin movimiento,19.23
+2026-09-19T08:40:00,Abierta,Sin movimiento,28.4
+2026-09-19T08:45:00,Abierta,Detectado,21.97
+2026-09-19T08:50:00,Abierta,Detectado,28.9
+2026-09-19T08:55:00,Abierta,Detectado,15.89
+2026-09-19T09:00:00,Abierta,Detectado,16.75
+2026-09-19T09:05:00,Abierta,Detectado,24.22
+2026-09-19T09:10:00,Abierta,Sin movimiento,28.22
+2026-09-19T09:15:00,Abierta,Sin movimiento,19.05
+2026-09-19T09:20:00,Abierta,Sin movimiento,25.04
+2026-09-19T09:25:00,Abierta,Detectado,22.32
+2026-09-19T09:30:00,Abierta,Detectado,27.97
+2026-09-19T09:35:00,Abierta,Detectado,24.84
+2026-09-19T09:40:00,Abierta,Detectado,17.48
+2026-09-19T09:45:00,Abierta,Sin movimiento,20.45
+2026-09-19T09:50:00,Abierta,Detectado,17.77
+2026-09-19T09:55:00,Abierta,Detectado,26.53
+2026-09-19T10:00:00,Abierta,Sin movimiento,20.42
+2026-09-19T10:05:00,Cerrada,Sin movimiento,24.46
+2026-09-19T10:10:00,Abierta,Sin movimiento,20.82
+2026-09-19T10:15:00,Abierta,Detectado,24.85
+2026-09-19T10:20:00,Abierta,Detectado,15.7
+2026-09-19T10:25:00,Abierta,Sin movimiento,29.31
+2026-09-19T10:30:00,Abierta,Sin movimiento,25.59
+2026-09-19T10:35:00,Abierta,Sin movimiento,23.48
+2026-09-19T10:40:00,Abierta,Detectado,28.0
+2026-09-19T10:45:00,Cerrada,Sin movimiento,28.21
+2026-09-19T10:50:00,Cerrada,Sin movimiento,24.99
+2026-09-19T10:55:00,Cerrada,Sin movimiento,23.6
+2026-09-19T11:00:00,Cerrada,Sin movimiento,16.0
+2026-09-19T11:05:00,Cerrada,Sin movimiento,19.03
+2026-09-19T11:10:00,Cerrada,Sin movimiento,20.78
+2026-09-19T11:15:00,Cerrada,Sin movimiento,18.23
+2026-09-19T11:20:00,Cerrada,Sin movimiento,27.24
+2026-09-19T11:25:00,Cerrada,Sin movimiento,18.31
+2026-09-19T11:30:00,Cerrada,Sin movimiento,19.95
+2026-09-19T11:35:00,Cerrada,Sin movimiento,29.85
+2026-09-19T11:40:00,Cerrada,Sin movimiento,15.52
+2026-09-19T11:45:00,Cerrada,Sin movimiento,15.85
+2026-09-19T11:50:00,Cerrada,Sin movimiento,27.6
+2026-09-19T11:55:00,Abierta,Sin movimiento,15.57
+2026-09-19T12:00:00,Abierta,Detectado,18.7
+2026-09-19T12:05:00,Abierta,Sin movimiento,25.62
+2026-09-19T12:10:00,Abierta,Sin movimiento,16.02
+2026-09-19T12:15:00,Cerrada,Sin movimiento,23.23
+2026-09-19T12:20:00,Abierta,Sin movimiento,28.69
+2026-09-19T12:25:00,Abierta,Detectado,26.93
+2026-09-19T12:30:00,Abierta,Sin movimiento,23.85
+2026-09-19T12:35:00,Cerrada,Sin movimiento,17.8
+2026-09-19T12:40:00,Cerrada,Sin movimiento,16.48
+2026-09-19T12:45:00,Cerrada,Sin movimiento,18.44
+2026-09-19T12:50:00,Cerrada,Sin movimiento,26.32
+2026-09-19T12:55:00,Cerrada,Sin movimiento,28.07
+2026-09-19T13:00:00,Abierta,Detectado,23.76
+2026-09-19T13:05:00,Abierta,Detectado,28.09
+2026-09-19T13:10:00,Abierta,Detectado,25.35
+2026-09-19T13:15:00,Abierta,Sin movimiento,27.43
+2026-09-19T13:20:00,Abierta,Sin movimiento,28.45
+2026-09-19T13:25:00,Abierta,Detectado,21.3
+2026-09-19T13:30:00,Abierta,Detectado,20.34
+2026-09-19T13:35:00,Abierta,Detectado,15.84
+2026-09-19T13:40:00,Abierta,Detectado,24.61
+2026-09-19T13:45:00,Abierta,Detectado,27.52
+2026-09-19T13:50:00,Abierta,Detectado,19.46
+2026-09-19T13:55:00,Abierta,Detectado,20.5
+2026-09-19T14:00:00,Abierta,Detectado,16.36
+2026-09-19T14:05:00,Abierta,Detectado,27.24
+2026-09-19T14:10:00,Abierta,Sin movimiento,20.4
+2026-09-19T14:15:00,Abierta,Sin movimiento,26.39
+2026-09-19T14:20:00,Abierta,Sin movimiento,25.02
+2026-09-19T14:25:00,Abierta,Detectado,25.86
+2026-09-19T14:30:00,Abierta,Detectado,18.22
+2026-09-19T14:35:00,Abierta,Detectado,24.17
+2026-09-19T14:40:00,Abierta,Detectado,27.69
+2026-09-19T14:45:00,Abierta,Detectado,28.06
+2026-09-19T14:50:00,Cerrada,Sin movimiento,15.91
+2026-09-19T14:55:00,Cerrada,Sin movimiento,22.52
+2026-09-19T15:00:00,Cerrada,Sin movimiento,17.81
+2026-09-19T15:05:00,Cerrada,Sin movimiento,24.56
+2026-09-19T15:10:00,Abierta,Sin movimiento,23.38
+2026-09-19T15:15:00,Abierta,Sin movimiento,21.37
+2026-09-19T15:20:00,Cerrada,Sin movimiento,18.61
+2026-09-19T15:25:00,Cerrada,Sin movimiento,28.88
+2026-09-19T15:30:00,Cerrada,Sin movimiento,19.26
+2026-09-19T15:35:00,Cerrada,Sin movimiento,26.49
+2026-09-19T15:40:00,Cerrada,Sin movimiento,15.39
+2026-09-19T15:45:00,Cerrada,Sin movimiento,23.7
+2026-09-19T15:50:00,Cerrada,Sin movimiento,24.79
+2026-09-19T15:55:00,Cerrada,Sin movimiento,21.56
+2026-09-19T16:00:00,Cerrada,Sin movimiento,15.23
+2026-09-19T16:05:00,Cerrada,Sin movimiento,27.87
+2026-09-19T16:10:00,Cerrada,Sin movimiento,26.76
+2026-09-19T16:15:00,Cerrada,Sin movimiento,27.84
+2026-09-19T16:20:00,Cerrada,Sin movimiento,27.21
+2026-09-19T16:25:00,Cerrada,Sin movimiento,27.93
+2026-09-19T16:30:00,Cerrada,Sin movimiento,25.78
+2026-09-19T16:35:00,Cerrada,Sin movimiento,29.76
+2026-09-19T16:40:00,Cerrada,Sin movimiento,27.53
+2026-09-19T16:45:00,Cerrada,Sin movimiento,25.06
+2026-09-19T16:50:00,Cerrada,Sin movimiento,20.81
+2026-09-19T16:55:00,Cerrada,Sin movimiento,24.2
+2026-09-19T17:00:00,Cerrada,Sin movimiento,19.1
+2026-09-19T17:05:00,Cerrada,Sin movimiento,15.21
+2026-09-19T17:10:00,Cerrada,Sin movimiento,17.19
+2026-09-19T17:15:00,Abierta,Sin movimiento,21.18
+2026-09-19T17:20:00,Abierta,Sin movimiento,20.97
+2026-09-19T17:25:00,Abierta,Detectado,24.84
+2026-09-19T17:30:00,Abierta,Sin movimiento,24.93
+2026-09-19T17:35:00,Abierta,Detectado,24.49
+2026-09-19T17:40:00,Abierta,Detectado,26.55
+2026-09-19T17:45:00,Cerrada,Sin movimiento,15.6
+2026-09-19T17:50:00,Cerrada,Sin movimiento,24.77
+2026-09-19T17:55:00,Cerrada,Sin movimiento,29.22
+2026-09-19T18:00:00,Abierta,Detectado,16.01
+2026-09-19T18:05:00,Abierta,Detectado,19.08
+2026-09-19T18:10:00,Abierta,Detectado,16.86
+2026-09-19T18:15:00,Abierta,Detectado,15.77
+2026-09-19T18:20:00,Cerrada,Sin movimiento,26.52
+2026-09-19T18:25:00,Cerrada,Sin movimiento,16.97
+2026-09-19T18:30:00,Cerrada,Sin movimiento,28.25
+2026-09-19T18:35:00,Cerrada,Sin movimiento,21.86
+2026-09-19T18:40:00,Cerrada,Sin movimiento,21.0
+2026-09-19T18:45:00,Abierta,Detectado,16.59
+2026-09-19T18:50:00,Abierta,Detectado,19.51
+2026-09-19T18:55:00,Abierta,Sin movimiento,26.84
+2026-09-19T19:00:00,Abierta,Sin movimiento,28.35
+2026-09-19T19:05:00,Cerrada,Sin movimiento,22.0
+2026-09-19T19:10:00,Cerrada,Sin movimiento,20.64
+2026-09-19T19:15:00,Cerrada,Sin movimiento,21.94
+2026-09-19T19:20:00,Cerrada,Sin movimiento,18.28
+2026-09-19T19:25:00,Cerrada,Sin movimiento,18.62
+2026-09-19T19:30:00,Cerrada,Sin movimiento,15.04
+2026-09-19T19:35:00,Cerrada,Sin movimiento,24.36
+2026-09-19T19:40:00,Cerrada,Sin movimiento,19.21
+2026-09-19T19:45:00,Cerrada,Sin movimiento,21.94
+2026-09-19T19:50:00,Cerrada,Sin movimiento,24.26
+2026-09-19T19:55:00,Abierta,Sin movimiento,20.56
+2026-09-19T20:00:00,Abierta,Sin movimiento,15.47
+2026-09-19T20:05:00,Abierta,Detectado,17.6
+2026-09-19T20:10:00,Abierta,Sin movimiento,23.37
+2026-09-19T20:15:00,Abierta,Sin movimiento,29.5
+2026-09-19T20:20:00,Abierta,Detectado,26.88
+2026-09-19T20:25:00,Cerrada,Sin movimiento,25.84
+2026-09-19T20:30:00,Cerrada,Sin movimiento,28.02
+2026-09-19T20:35:00,Cerrada,Sin movimiento,17.19
+2026-09-19T20:40:00,Cerrada,Sin movimiento,24.54
+2026-09-19T20:45:00,Cerrada,Sin movimiento,17.68
+2026-09-19T20:50:00,Cerrada,Sin movimiento,21.65
+2026-09-19T20:55:00,Cerrada,Sin movimiento,29.45
+2026-09-19T21:00:00,Cerrada,Sin movimiento,28.04
+2026-09-19T21:05:00,Cerrada,Sin movimiento,22.0
+2026-09-19T21:10:00,Cerrada,Sin movimiento,15.41
+2026-09-19T21:15:00,Cerrada,Sin movimiento,17.81
+2026-09-19T21:20:00,Cerrada,Sin movimiento,27.27
+2026-09-19T21:25:00,Cerrada,Sin movimiento,24.19
+2026-09-19T21:30:00,Cerrada,Sin movimiento,24.53
+2026-09-19T21:35:00,Cerrada,Sin movimiento,15.22
+2026-09-19T21:40:00,Abierta,Detectado,22.03
+2026-09-19T21:45:00,Abierta,Detectado,16.51
+2026-09-19T21:50:00,Cerrada,Sin movimiento,27.15
+2026-09-19T21:55:00,Cerrada,Sin movimiento,23.77
+2026-09-19T22:00:00,Cerrada,Sin movimiento,16.76
+2026-09-19T22:05:00,Cerrada,Sin movimiento,26.58
+2026-09-19T22:10:00,Cerrada,Sin movimiento,17.34
+2026-09-19T22:15:00,Cerrada,Sin movimiento,29.71
+2026-09-19T22:20:00,Cerrada,Sin movimiento,26.48
+2026-09-19T22:25:00,Cerrada,Sin movimiento,15.87
+2026-09-19T22:30:00,Cerrada,Sin movimiento,20.83
+2026-09-19T22:35:00,Cerrada,Sin movimiento,15.55
+2026-09-19T22:40:00,Cerrada,Sin movimiento,22.38
+2026-09-19T22:45:00,Cerrada,Sin movimiento,27.71
+2026-09-19T22:50:00,Cerrada,Sin movimiento,22.13
+2026-09-19T22:55:00,Cerrada,Sin movimiento,29.75
+2026-09-19T23:00:00,Cerrada,Sin movimiento,16.36
+2026-09-19T23:05:00,Cerrada,Sin movimiento,27.12
+2026-09-19T23:10:00,Cerrada,Sin movimiento,25.46
+2026-09-19T23:15:00,Cerrada,Sin movimiento,25.44
+2026-09-19T23:20:00,Abierta,Detectado,16.09
+2026-09-19T23:25:00,Abierta,Detectado,29.2
+2026-09-19T23:30:00,Abierta,Detectado,19.92
+2026-09-19T23:35:00,Abierta,Sin movimiento,28.56
+2026-09-19T23:40:00,Abierta,Detectado,27.64
+2026-09-19T23:45:00,Abierta,Sin movimiento,18.97
+2026-09-19T23:50:00,Abierta,Detectado,26.85
+2026-09-19T23:55:00,Abierta,Sin movimiento,18.17
+2026-09-20T00:00:00,Abierta,Detectado,18.61
+2026-09-20T00:05:00,Cerrada,Sin movimiento,15.72
+2026-09-20T00:10:00,Cerrada,Sin movimiento,28.66
+2026-09-20T00:15:00,Abierta,Sin movimiento,18.83
+2026-09-20T00:20:00,Cerrada,Sin movimiento,27.76
+2026-09-20T00:25:00,Cerrada,Sin movimiento,21.71
+2026-09-20T00:30:00,Cerrada,Sin movimiento,18.96
+2026-09-20T00:35:00,Cerrada,Sin movimiento,24.0
+2026-09-20T00:40:00,Cerrada,Sin movimiento,24.59
+2026-09-20T00:45:00,Cerrada,Sin movimiento,18.78
+2026-09-20T00:50:00,Cerrada,Sin movimiento,16.89
+2026-09-20T00:55:00,Cerrada,Sin movimiento,19.09
+2026-09-20T01:00:00,Cerrada,Sin movimiento,17.51
+2026-09-20T01:05:00,Cerrada,Sin movimiento,24.99
+2026-09-20T01:10:00,Cerrada,Sin movimiento,19.89
+2026-09-20T01:15:00,Cerrada,Sin movimiento,26.72
+2026-09-20T01:20:00,Cerrada,Sin movimiento,27.76
+2026-09-20T01:25:00,Cerrada,Sin movimiento,23.85
+2026-09-20T01:30:00,Cerrada,Sin movimiento,26.02
+2026-09-20T01:35:00,Abierta,Detectado,17.74
+2026-09-20T01:40:00,Abierta,Detectado,16.81
+2026-09-20T01:45:00,Abierta,Detectado,25.43
+2026-09-20T01:50:00,Abierta,Detectado,27.68
+2026-09-20T01:55:00,Abierta,Detectado,17.05
+2026-09-20T02:00:00,Abierta,Detectado,24.0
+2026-09-20T02:05:00,Abierta,Detectado,22.01
+2026-09-20T02:10:00,Abierta,Detectado,23.92
+2026-09-20T02:15:00,Abierta,Detectado,27.89
+2026-09-20T02:20:00,Cerrada,Sin movimiento,27.4
+2026-09-20T02:25:00,Cerrada,Sin movimiento,22.37
+2026-09-20T02:30:00,Cerrada,Sin movimiento,22.99
+2026-09-20T02:35:00,Cerrada,Sin movimiento,27.53
+2026-09-20T02:40:00,Cerrada,Sin movimiento,29.78
+2026-09-20T02:45:00,Cerrada,Sin movimiento,15.62
+2026-09-20T02:50:00,Cerrada,Sin movimiento,22.04
+2026-09-20T02:55:00,Cerrada,Sin movimiento,26.27
+2026-09-20T03:00:00,Cerrada,Sin movimiento,24.19
+2026-09-20T03:05:00,Cerrada,Sin movimiento,25.36
+2026-09-20T03:10:00,Cerrada,Sin movimiento,16.52
+2026-09-20T03:15:00,Cerrada,Sin movimiento,25.0
+2026-09-20T03:20:00,Cerrada,Sin movimiento,27.85
+2026-09-20T03:25:00,Cerrada,Sin movimiento,26.93
+2026-09-20T03:30:00,Cerrada,Sin movimiento,23.83
+2026-09-20T03:35:00,Cerrada,Sin movimiento,15.21
+2026-09-20T03:40:00,Cerrada,Sin movimiento,19.0
+2026-09-20T03:45:00,Cerrada,Sin movimiento,21.78
+2026-09-20T03:50:00,Cerrada,Sin movimiento,15.21
+2026-09-20T03:55:00,Cerrada,Sin movimiento,19.41
+2026-09-20T04:00:00,Abierta,Sin movimiento,15.78
+2026-09-20T04:05:00,Abierta,Sin movimiento,18.99
+2026-09-20T04:10:00,Abierta,Sin movimiento,24.47
+2026-09-20T04:15:00,Abierta,Detectado,20.35
+2026-09-20T04:20:00,Abierta,Sin movimiento,22.3
+2026-09-20T04:25:00,Cerrada,Sin movimiento,20.43
+2026-09-20T04:30:00,Cerrada,Sin movimiento,27.57
+2026-09-20T04:35:00,Cerrada,Sin movimiento,18.28
+2026-09-20T04:40:00,Cerrada,Sin movimiento,29.46
+2026-09-20T04:45:00,Cerrada,Sin movimiento,29.94
+2026-09-20T04:50:00,Cerrada,Sin movimiento,24.24
+2026-09-20T04:55:00,Abierta,Detectado,28.11
+2026-09-20T05:00:00,Abierta,Detectado,26.56
+2026-09-20T05:05:00,Cerrada,Sin movimiento,26.36
+2026-09-20T05:10:00,Cerrada,Sin movimiento,23.66
+2026-09-20T05:15:00,Cerrada,Sin movimiento,24.97
+2026-09-20T05:20:00,Cerrada,Sin movimiento,19.6
+2026-09-20T05:25:00,Cerrada,Sin movimiento,18.99
+2026-09-20T05:30:00,Abierta,Sin movimiento,22.44
+2026-09-20T05:35:00,Abierta,Detectado,26.17
+2026-09-20T05:40:00,Abierta,Sin movimiento,22.5
+2026-09-20T05:45:00,Abierta,Sin movimiento,23.03
+2026-09-20T05:50:00,Abierta,Detectado,22.96
+2026-09-20T05:55:00,Abierta,Detectado,15.43
+2026-09-20T06:00:00,Abierta,Detectado,21.99
+2026-09-20T06:05:00,Abierta,Detectado,16.04
+2026-09-20T06:10:00,Abierta,Detectado,20.89
+2026-09-20T06:15:00,Abierta,Sin movimiento,22.07
+2026-09-20T06:20:00,Abierta,Sin movimiento,28.83
+2026-09-20T06:25:00,Cerrada,Sin movimiento,25.89
+2026-09-20T06:30:00,Cerrada,Sin movimiento,25.71
+2026-09-20T06:35:00,Cerrada,Sin movimiento,18.17
+2026-09-20T06:40:00,Abierta,Sin movimiento,16.18
+2026-09-20T06:45:00,Abierta,Sin movimiento,29.96
+2026-09-20T06:50:00,Abierta,Sin movimiento,24.3
+2026-09-20T06:55:00,Abierta,Detectado,25.71
+2026-09-20T07:00:00,Abierta,Sin movimiento,28.62
+2026-09-20T07:05:00,Abierta,Sin movimiento,21.27
+2026-09-20T07:10:00,Abierta,Detectado,23.79
+2026-09-20T07:15:00,Abierta,Sin movimiento,18.89
+2026-09-20T07:20:00,Abierta,Sin movimiento,19.99
+2026-09-20T07:25:00,Abierta,Detectado,23.5
+2026-09-20T07:30:00,Abierta,Detectado,20.97
+2026-09-20T07:35:00,Abierta,Detectado,24.64
+2026-09-20T07:40:00,Abierta,Detectado,28.63
+2026-09-20T07:45:00,Cerrada,Sin movimiento,20.64
+2026-09-20T07:50:00,Cerrada,Sin movimiento,26.77
+2026-09-20T07:55:00,Cerrada,Sin movimiento,21.86
+2026-09-20T08:00:00,Cerrada,Sin movimiento,23.87
+2026-09-20T08:05:00,Cerrada,Sin movimiento,15.72
+2026-09-20T08:10:00,Cerrada,Sin movimiento,22.81
+2026-09-20T08:15:00,Cerrada,Sin movimiento,22.99
+2026-09-20T08:20:00,Cerrada,Sin movimiento,21.09
+2026-09-20T08:25:00,Cerrada,Sin movimiento,26.91
+2026-09-20T08:30:00,Cerrada,Sin movimiento,17.27
+2026-09-20T08:35:00,Cerrada,Sin movimiento,15.17
+2026-09-20T08:40:00,Cerrada,Sin movimiento,29.99
+2026-09-20T08:45:00,Cerrada,Sin movimiento,29.11
+2026-09-20T08:50:00,Cerrada,Sin movimiento,24.49
+2026-09-20T08:55:00,Cerrada,Sin movimiento,20.41
+2026-09-20T09:00:00,Abierta,Detectado,22.3
+2026-09-20T09:05:00,Abierta,Detectado,18.2
+2026-09-20T09:10:00,Abierta,Sin movimiento,20.24
+2026-09-20T09:15:00,Cerrada,Sin movimiento,26.38
+2026-09-20T09:20:00,Abierta,Sin movimiento,19.75
+2026-09-20T09:25:00,Abierta,Sin movimiento,27.26
+2026-09-20T09:30:00,Abierta,Detectado,19.77
+2026-09-20T09:35:00,Abierta,Sin movimiento,16.04
+2026-09-20T09:40:00,Abierta,Sin movimiento,29.49
+2026-09-20T09:45:00,Abierta,Detectado,24.53
+2026-09-20T09:50:00,Abierta,Detectado,20.2
+2026-09-20T09:55:00,Abierta,Sin movimiento,16.39
+2026-09-20T10:00:00,Abierta,Detectado,27.59
+2026-09-20T10:05:00,Abierta,Detectado,16.2
+2026-09-20T10:10:00,Abierta,Sin movimiento,27.81
+2026-09-20T10:15:00,Cerrada,Sin movimiento,16.87
+2026-09-20T10:20:00,Cerrada,Sin movimiento,22.66
+2026-09-20T10:25:00,Cerrada,Sin movimiento,19.85
+2026-09-20T10:30:00,Cerrada,Sin movimiento,24.36
+2026-09-20T10:35:00,Abierta,Detectado,17.81
+2026-09-20T10:40:00,Abierta,Detectado,18.71
+2026-09-20T10:45:00,Abierta,Detectado,21.42
+2026-09-20T10:50:00,Abierta,Sin movimiento,21.33
+2026-09-20T10:55:00,Abierta,Detectado,21.35
+2026-09-20T11:00:00,Abierta,Detectado,18.42
+2026-09-20T11:05:00,Abierta,Sin movimiento,22.7
+2026-09-20T11:10:00,Abierta,Detectado,23.69
+2026-09-20T11:15:00,Abierta,Sin movimiento,20.58
+2026-09-20T11:20:00,Abierta,Sin movimiento,20.15
+2026-09-20T11:25:00,Abierta,Detectado,27.65
+2026-09-20T11:30:00,Abierta,Sin movimiento,19.82
+2026-09-20T11:35:00,Abierta,Sin movimiento,29.07
+2026-09-20T11:40:00,Abierta,Sin movimiento,19.0
+2026-09-20T11:45:00,Abierta,Sin movimiento,19.1
+2026-09-20T11:50:00,Abierta,Sin movimiento,21.97
+2026-09-20T11:55:00,Abierta,Detectado,27.32
+2026-09-20T12:00:00,Abierta,Sin movimiento,26.05
+2026-09-20T12:05:00,Abierta,Sin movimiento,16.67
+2026-09-20T12:10:00,Abierta,Detectado,26.47
+2026-09-20T12:15:00,Abierta,Sin movimiento,24.81
+2026-09-20T12:20:00,Abierta,Sin movimiento,25.48
+2026-09-20T12:25:00,Abierta,Detectado,25.3
+2026-09-20T12:30:00,Abierta,Sin movimiento,23.7
+2026-09-20T12:35:00,Abierta,Sin movimiento,21.22
+2026-09-20T12:40:00,Abierta,Detectado,18.34
+2026-09-20T12:45:00,Abierta,Detectado,29.74
+2026-09-20T12:50:00,Abierta,Sin movimiento,22.73
+2026-09-20T12:55:00,Abierta,Detectado,17.79
+2026-09-20T13:00:00,Abierta,Sin movimiento,21.18
+2026-09-20T13:05:00,Abierta,Detectado,21.59
+2026-09-20T13:10:00,Abierta,Detectado,19.47
+2026-09-20T13:15:00,Abierta,Sin movimiento,16.76
+2026-09-20T13:20:00,Abierta,Detectado,19.71
+2026-09-20T13:25:00,Abierta,Detectado,26.15
+2026-09-20T13:30:00,Abierta,Detectado,26.76
+2026-09-20T13:35:00,Abierta,Sin movimiento,24.04
+2026-09-20T13:40:00,Abierta,Detectado,27.09
+2026-09-20T13:45:00,Abierta,Detectado,22.83
+2026-09-20T13:50:00,Cerrada,Sin movimiento,23.04
+2026-09-20T13:55:00,Cerrada,Sin movimiento,25.3
+2026-09-20T14:00:00,Cerrada,Sin movimiento,17.91
+2026-09-20T14:05:00,Cerrada,Sin movimiento,15.94
+2026-09-20T14:10:00,Cerrada,Sin movimiento,18.01
+2026-09-20T14:15:00,Cerrada,Sin movimiento,18.18
+2026-09-20T14:20:00,Cerrada,Sin movimiento,23.24
+2026-09-20T14:25:00,Cerrada,Sin movimiento,27.81
+2026-09-20T14:30:00,Cerrada,Sin movimiento,27.78
+2026-09-20T14:35:00,Cerrada,Sin movimiento,24.7
+2026-09-20T14:40:00,Cerrada,Sin movimiento,29.34
+2026-09-20T14:45:00,Cerrada,Sin movimiento,21.15
+2026-09-20T14:50:00,Cerrada,Sin movimiento,25.98
+2026-09-20T14:55:00,Cerrada,Sin movimiento,22.71
+2026-09-20T15:00:00,Cerrada,Sin movimiento,24.11
+2026-09-20T15:05:00,Abierta,Detectado,25.23
+2026-09-20T15:10:00,Abierta,Sin movimiento,27.85
+2026-09-20T15:15:00,Abierta,Detectado,27.83
+2026-09-20T15:20:00,Abierta,Detectado,25.07
+2026-09-20T15:25:00,Cerrada,Sin movimiento,20.69
+2026-09-20T15:30:00,Cerrada,Sin movimiento,24.62
+2026-09-20T15:35:00,Cerrada,Sin movimiento,28.26
+2026-09-20T15:40:00,Cerrada,Sin movimiento,16.29
+2026-09-20T15:45:00,Abierta,Detectado,28.22
+2026-09-20T15:50:00,Abierta,Sin movimiento,22.37
+2026-09-20T15:55:00,Abierta,Detectado,23.17
+2026-09-20T16:00:00,Abierta,Detectado,24.03
+2026-09-20T16:05:00,Abierta,Detectado,16.62
+2026-09-20T16:10:00,Abierta,Detectado,19.52
+2026-09-20T16:15:00,Abierta,Detectado,19.95
+2026-09-20T16:20:00,Abierta,Detectado,20.6
+2026-09-20T16:25:00,Abierta,Detectado,16.31
+2026-09-20T16:30:00,Abierta,Sin movimiento,25.22
+2026-09-20T16:35:00,Abierta,Detectado,26.9
+2026-09-20T16:40:00,Cerrada,Sin movimiento,24.42
+2026-09-20T16:45:00,Cerrada,Sin movimiento,27.8
+2026-09-20T16:50:00,Cerrada,Sin movimiento,25.62
+2026-09-20T16:55:00,Cerrada,Sin movimiento,17.66
+2026-09-20T17:00:00,Cerrada,Sin movimiento,20.46
+2026-09-20T17:05:00,Cerrada,Sin movimiento,23.65
+2026-09-20T17:10:00,Cerrada,Sin movimiento,20.15
+2026-09-20T17:15:00,Cerrada,Sin movimiento,21.76
+2026-09-20T17:20:00,Abierta,Sin movimiento,17.1
+2026-09-20T17:25:00,Abierta,Sin movimiento,15.99
+2026-09-20T17:30:00,Abierta,Sin movimiento,19.67
+2026-09-20T17:35:00,Abierta,Sin movimiento,20.28

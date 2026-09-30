@@ -1,0 +1,51 @@
+import asyncio
+import json
+import csv
+from azure.iot.device.aio import ProvisioningDeviceClient, IoTHubDeviceClient
+from azure.iot.device import Message
+
+ID_SCOPE = "0ne010F6F29"
+DEVICE_ID = "1mwamqt9mjk"
+SYMMETRIC_KEY = "N7GzDm5CdHXxHWcNRlQ9E71MGikT6nnqfQiqBS4gySA="
+MODEL_ID = "dtmi:granjadecacao:PerimetroYBodega_4mb;1"
+
+async def main():
+    provisioning_client = ProvisioningDeviceClient.create_from_symmetric_key(
+        provisioning_host="global.azure-devices-provisioning.net",
+        registration_id=DEVICE_ID,
+        id_scope=ID_SCOPE,
+        symmetric_key=SYMMETRIC_KEY,
+        websockets=True,
+    )
+    provisioning_client.provisioning_payload = {"modelId": MODEL_ID}
+    registration_result = await provisioning_client.register()
+
+    device_client = IoTHubDeviceClient.create_from_symmetric_key(
+        symmetric_key=SYMMETRIC_KEY,
+        hostname=registration_result.registration_state.assigned_hub,
+        device_id=DEVICE_ID,
+        product_info=MODEL_ID,
+        websockets=True,
+    )
+    await device_client.connect()
+    print(f"[{DEVICE_ID}] Conectado. Iniciando replay de CSV...")
+
+    with open("perimetro_bodega_historico.csv", newline="") as f:
+        reader = csv.DictReader(f)
+        for fila in reader:
+            payload = {
+                "Puerta": fila["puerta"] == "Abierta",
+                "Movimiento": fila["movimiento"] == "Detectado",
+                "TempBodega": float(fila["tempBodega"]),
+            }
+            msg = Message(json.dumps(payload))
+            msg.content_encoding = "utf-8"
+            msg.content_type = "application/json"
+            await device_client.send_message(msg)
+            print("Replay enviado:", payload, "| timestamp original:", fila["timestamp"])
+            await asyncio.sleep(10)  # ritmo de reenvío, no el intervalo original del CSV
+
+    await device_client.disconnect()
+
+if __name__ == "__main__":
+    asyncio.run(main())
