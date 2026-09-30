@@ -9,10 +9,10 @@ import urllib.parse
 import paho.mqtt.client as mqtt
 from azure.iot.device import ProvisioningDeviceClient  # solo para DPS
 
-ID_SCOPE = "0ne010F6F29"
-DEVICE_ID = "1hhub7m5bjg"
-SYMMETRIC_KEY = "fDFl4tXkfqoyCOgTAbG/z0OQelqDiWossCECTFp9mRo="
-MODEL_ID = "dtmi:granjadecacao:AmbienteDeDoselYCampo_rn;1"
+ID_SCOPE = ""
+DEVICE_ID = ""
+SYMMETRIC_KEY = ""
+MODEL_ID = "dtmi:granjadecacao:AmbienteDeDoselYCampo#####"
 #.azure-devices.net
 # --- Paso A: aprovisionar vía DPS para obtener el hub asignado ---
 provisioning_client = ProvisioningDeviceClient.create_from_symmetric_key(
